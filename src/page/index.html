@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/page/page-style.css" rel="stylesheet">
+
+    <!--Google Fonts Connection-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300;1,400&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <div id="main-container">
+        <h1 id="main-title">Forms Autocomplete</h1>
+        <div id="toggle-container" class="unchecked">
+            <svg height="40" width="70" >
+                <ellipse cx="12" cy="13" rx="10" ry="10" id="toggle-ellipse"/>
+            </svg>
+        </div>
+        <div id="settings-container">
+            <div id="tabs-container">
+                <input type="button" value="fields" class="tab selected-tab">
+                <input type="button" value="data" class="tab">
+            </div>
+            <div id="actual-tab-container">
+            </div>
+            <div id="actual-tab-controllers">
+                <input type="button" value="add" id="add-controller" class="controler">
+                <input type="button" value="remove" id="remove-controller" class="controler">
+            </div>
+        </div>
+        <section id="links-section">
+            <a href="https://twitter.com/HeitorERezende" target="_blank">Twitter</a>
+            <a href="https://github.com/heitoreleuterio" target="_blank">Github</a>
+            <a href="https://www.instagram.com/heitoreleuterio4826/" target="_blank">Instagram</a>
+        </section>
+    </div>
+    <script src="/src/page/view.js" type="module"></script>
+</body>
+</html>
